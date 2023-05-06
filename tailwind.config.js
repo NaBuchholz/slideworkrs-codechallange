@@ -4,10 +4,7 @@ export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
 		extend: {
-			colors: { slideworks: '#726BEA' },
-			opacity: {
-				80: '.80',
-			},
+			colors: { slideworks: { 700: '#726BEA', 900: '#4F46E5' } },
 			fontFamily: { serif: ['Montserrat'] },
 		},
 	},
