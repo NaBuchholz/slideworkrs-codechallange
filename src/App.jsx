@@ -3,7 +3,7 @@ import { Footer, Header } from './components';
 
 function App() {
 	return (
-		<div className="">
+		<div className="font-serif">
 			<Header className="" />
 			<Outlet className="" />
 			<Footer className="" />
