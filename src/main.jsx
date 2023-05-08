@@ -4,12 +4,19 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import * as pages from './pages';
 import App from './App';
+import { dataLoader } from './services/getMovies';
+
 const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <App />,
+		id: 'root',
+		loader: dataLoader,
 		children: [
-			{ path: '/', element: <pages.Home /> },
+			{
+				path: '/',
+				element: <pages.Home />,
+			},
 			{
 				path: '/Movie',
 				element: <pages.MovieDetails />,
