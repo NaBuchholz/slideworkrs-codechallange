@@ -17,14 +17,6 @@ const router = createBrowserRouter([
 				path: '/',
 				element: <pages.Home />,
 			},
-			{
-				path: '/Movie',
-				element: <pages.MovieDetails />,
-			},
-			{
-				path: '/YourMovies',
-				element: <pages.FvoriteMovies />,
-			},
 		],
 	},
 ]);
