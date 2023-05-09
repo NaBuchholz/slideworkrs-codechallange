@@ -5,7 +5,7 @@ const HomePage = () => {
 	const movies = useRouteLoaderData('root');
 	console.log(movies);
 	return (
-		<div>
+		<div className="mb-16">
 			<Carrousel autoSlide={true}></Carrousel>
 			<div
 				className="flex flex-wrap gap-10 md:gap-16 justify-center 
