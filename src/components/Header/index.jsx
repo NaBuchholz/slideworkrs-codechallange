@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ReactComponent as Logo } from '../../assets/logo.svg';
+import { Logo } from '..';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 const Header = () => {
@@ -21,7 +21,9 @@ const Header = () => {
 
 	return (
 		<div className="flex grow flex-row flex-nowarp md:mt-9 my-2 items-center justify-between md:h-[104px]">
-			<Logo className="flex-none w-18 mx-1 md:ml-28" />
+			<div className="flex-none w-18 mx-1 md:ml-28">
+				<Logo />
+			</div>
 			<nav className="flex justify-between text-sm flex-grow-1 items-center">
 				<div className="hidden md:flex">
 					<menu className="justify-between px-2 items-center ">
