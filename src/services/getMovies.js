@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const generateBaseUrl = (limit = 20) => {
+const generateBaseUrl = (limit = 50) => {
 	const baseUrl = `https://movies.slideworks.cc/movies?limit=${limit}`;
 	return baseUrl;
 };
