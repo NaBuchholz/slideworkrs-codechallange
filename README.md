@@ -11,12 +11,12 @@ npm i
 npm run dev
 ```
 
-Caso queira ver em funcionamento basta seguir até o link de deploy.
+Caso queira ver em funcionamento basta seguir até o link de deploy ao lado.
 
 # Tecnologias Usadas
 
 - Vite
-- Reaact
+- React
 - React Router Dom v6.4
 - Axios
 - TailwindCss
